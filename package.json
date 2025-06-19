@@ -1,0 +1,35 @@
+{
+  "name": "people_app",
+  "version": "1.0.0",
+  "description": "Dating App Made by Personal Idea",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm install && npm install --save-dev nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham7408/People_App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shubham7408/People_App/issues"
+  },
+  "homepage": "https://github.com/shubham7408/People_App#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "imagekit": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "multer": "^2.0.1",
+    "winston": "^3.17.0"
+  }
+}
